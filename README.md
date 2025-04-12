@@ -1,6 +1,6 @@
-# Carbon-Aware Energy Forecasting with XGBoost and LSTM
+# EcoBoost: Carbon-Aware Energy Forecasting with XGBoost
 
-This repository contains the code and datasets used in our publication on short-term energy forecasting using environmental features such as weather and carbon intensity. The models include both traditional ML (XGBoost) and deep learning (LSTM) approaches to evaluate predictive performance and model transferability.
+This repository contains the code and datasets used in our publication on short-term energy forecasting using environmental features such as weather and carbon intensity. The core model is based on XGBoost regression and evaluates the impact of environmental variables on energy consumption patterns.
 
 ## 📁 Project Structure
 
@@ -9,7 +9,8 @@ This repository contains the code and datasets used in our publication on short-
 ├── data/             # Raw data files (weather.csv, carbon_intensity.csv, etc.)
 ├── figures/          # Output plots and visualizations
 ├── src/              # Core scripts for loading, processing, and modeling
-├── Codebase.ipynb  # Cleaned and commented notebook version
+├── Paper_Code.ipynb  # Original messy notebook
+├── Paper_Code_Cleaned.ipynb  # Cleaned and commented notebook version
 ├── requirements.txt  # Dependencies
 └── README.md         # Project documentation
 ```
@@ -18,8 +19,8 @@ This repository contains the code and datasets used in our publication on short-
 
 1. Clone the repository:
 ```bash
-git https://github.com/AI-4-Energy/instance-based-energy-transfer.git
-cd instance-based-energy-transfer
+git clone https://github.com/yourusername/ecoboost.git
+cd ecoboost
 ```
 
 2. Install dependencies:
@@ -29,12 +30,12 @@ pip install -r requirements.txt
 
 3. Launch the notebook:
 ```bash
-jupyter notebook Codebase.ipynb
+jupyter notebook Paper_Code_Cleaned.ipynb
 ```
 
 ## 🧠 Model Overview
 
-- **Model**: XGBoost Regressor, LSTM
+- **Model**: XGBoost Regressor
 - **Inputs**: Temperature, humidity, carbon intensity, etc.
 - **Output**: Predicted energy consumption
 - **Tools**: pandas, seaborn, matplotlib, xgboost
