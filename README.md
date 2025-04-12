@@ -19,8 +19,8 @@ This repository contains the code and datasets used in our publication on short-
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ecoboost.git
-cd ecoboost
+git https://github.com/AI-4-Energy/instance-based-energy-transfer.git
+cd instance-based-energy-transfer
 ```
 
 2. Install dependencies:
@@ -30,12 +30,12 @@ pip install -r requirements.txt
 
 3. Launch the notebook:
 ```bash
-jupyter notebook Paper_Code_Cleaned.ipynb
+jupyter notebook Codebase.ipynb
 ```
 
 ## 🧠 Model Overview
 
-- **Model**: XGBoost Regressor
+- **Model**: XGBoost Regressor, LSTM
 - **Inputs**: Temperature, humidity, carbon intensity, etc.
 - **Output**: Predicted energy consumption
 - **Tools**: pandas, seaborn, matplotlib, xgboost
