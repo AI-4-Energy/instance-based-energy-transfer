@@ -1,6 +1,6 @@
-# EcoBoost: Carbon-Aware Energy Forecasting with XGBoost
+# Carbon-Aware Energy Forecasting with XGBoost
 
-This repository contains the code and datasets used in our publication on short-term energy forecasting using environmental features such as weather and carbon intensity. The core model is based on XGBoost regression and evaluates the impact of environmental variables on energy consumption patterns.
+This repository contains the code and datasets used in our publication on short-term energy forecasting using environmental features such as weather and carbon intensity. The models include both traditional ML (XGBoost) and deep learning (LSTM) approaches to evaluate predictive performance and model transferability.
 
 ## 📁 Project Structure
 
@@ -9,8 +9,7 @@ This repository contains the code and datasets used in our publication on short-
 ├── data/             # Raw data files (weather.csv, carbon_intensity.csv, etc.)
 ├── figures/          # Output plots and visualizations
 ├── src/              # Core scripts for loading, processing, and modeling
-├── Paper_Code.ipynb  # Original messy notebook
-├── Paper_Code_Cleaned.ipynb  # Cleaned and commented notebook version
+├── Code_Base.ipynb   # Jupyter notebook
 ├── requirements.txt  # Dependencies
 └── README.md         # Project documentation
 ```
@@ -19,8 +18,8 @@ This repository contains the code and datasets used in our publication on short-
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ecoboost.git
-cd ecoboost
+git clone https://github.com/AI-4-Energy/instance-based-energy-transfer.git
+cd instance-based-energy-transfer
 ```
 
 2. Install dependencies:
@@ -30,7 +29,7 @@ pip install -r requirements.txt
 
 3. Launch the notebook:
 ```bash
-jupyter notebook Paper_Code_Cleaned.ipynb
+jupyter notebook Code_Baseipynb
 ```
 
 ## 🧠 Model Overview
