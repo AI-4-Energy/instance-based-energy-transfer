@@ -1,6 +1,6 @@
-# EcoBoost: Carbon-Aware Energy Forecasting with XGBoost
+# Carbon-Aware Energy Forecasting with XGBoost and LSTM
 
-This repository contains the code and datasets used in our publication on short-term energy forecasting using environmental features such as weather and carbon intensity. The core model is based on XGBoost regression and evaluates the impact of environmental variables on energy consumption patterns.
+This repository contains the code and datasets used in our publication on short-term energy forecasting using environmental features such as weather and carbon intensity. The models include both traditional ML (XGBoost) and deep learning (LSTM) approaches to evaluate predictive performance and model transferability.
 
 ## 📁 Project Structure
 
