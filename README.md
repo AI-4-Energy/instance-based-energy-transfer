@@ -9,8 +9,7 @@ This repository contains the code and datasets used in our publication on short-
 ├── data/             # Raw data files (weather.csv, carbon_intensity.csv, etc.)
 ├── figures/          # Output plots and visualizations
 ├── src/              # Core scripts for loading, processing, and modeling
-├── Paper_Code.ipynb  # Original messy notebook
-├── Paper_Code_Cleaned.ipynb  # Cleaned and commented notebook version
+├── Codebase.ipynb  # Cleaned and commented notebook version
 ├── requirements.txt  # Dependencies
 └── README.md         # Project documentation
 ```
