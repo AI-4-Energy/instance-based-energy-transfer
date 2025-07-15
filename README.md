@@ -39,6 +39,27 @@ jupyter notebook Code_Baseipynb
 - **Output**: Predicted energy consumption
 - **Tools**: pandas, seaborn, matplotlib, xgboost
 
+
+## Model Configurations
+
+### XGBoost
+- Boosting rounds: 100
+- Learning rate: 0.1
+- Max depth: 6
+- Early stopping: 10 rounds on validation set
+
+### LSTM
+- Layers: 2
+- Units per layer: 50
+- Dropout: 0.2
+- Optimizer: Adam (lr = 0.001)
+- Batch size: 32
+- Epochs: up to 50
+- Early stopping: 5 rounds
+
+Hyperparameters were selected based on a grid search and validation.
+
+
 ## 📈 Outputs
 
 All generated plots will be saved in the `figures/` folder.
