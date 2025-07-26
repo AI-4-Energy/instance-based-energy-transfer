@@ -6,7 +6,7 @@ This repository contains the code and datasets used in our publication on short-
 
 ```
 .
-├── data/             # Raw data files (weather.csv, carbon_intensity.csv, etc.)
+├── data/             # Raw data files, result CSVs and pre-trained models
 ├── figures/          # Output plots and visualizations
 ├── src/              # Core scripts for loading, processing, and modeling
 ├── Code_Base.ipynb   # Jupyter notebook
